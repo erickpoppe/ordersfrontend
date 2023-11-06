@@ -1,3 +1,5 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/emitirorden/page": "app/emitirorden/page.js",
+  "/crearorden/page": "app/crearorden/page.js"
 }

@@ -33,7 +33,7 @@ export default function ShippingAddressPage() {
 
   const submitHandler = async (data) => {
     try {
-      const url = 'https://dev-core-invoice-service-q642kqwota-uc.a.run.app/clients/?customer_id=1&branch_id=1&pos_id=1';
+      const url = '';
       const headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
@@ -133,6 +133,9 @@ export default function ShippingAddressPage() {
               <option value="4">Otro documento de identidad</option>
               <option value="7">Número de identificación tributaria</option>
             </select>
+          </div>
+          <div className="mb-4 flex justify-between">
+            <button className="primary-button">Registrar</button>
           </div>
           <div className="mb-4 flex justify-between">
             <button className="primary-button">Registrar</button>
